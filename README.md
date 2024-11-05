@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# File Upload UI with Feedback Messages
 
-## Getting Started
+A simple web application that allows users to upload an audio file and receive feedback on whether the upload was successful or if the file type is unsupported. Built using React and styled with Tailwind CSS.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **File Upload**: Users can select an audio file to upload.
+- **File Type Validation**: Checks if the selected file is of type `.mp3` or `.wav`.
+- **Feedback Messages**: 
+  - Displays a success message if the file type is valid.
+  - Shows an error message for unsupported file types.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+Follow these steps to set up the project locally:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/transcript-highlighter.git
+   cd transcript-highlighter
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install the project dependencies using npm**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ 3. **run the development serve**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+     npm run dev
+    ```
